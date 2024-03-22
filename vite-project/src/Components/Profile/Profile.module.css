@@ -10,10 +10,11 @@
     border-radius: 15px;
     padding:0;
     margin: 0;
-    position: absolute;
-            top: 50%;
+    /* position: absolute;
+            top: auto;
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); */
+      
 }
 
 .image {
