@@ -10,11 +10,10 @@
     border-radius: 15px;
     padding:0;
     margin: 0;
-    /* position: absolute;
-            top: auto;
+    position: absolute;
+            top: 50%;
             left: 50%;
-            transform: translate(-50%, -50%); */
-      
+            transform: translate(-50%, -50%);
 }
 
 .image {
@@ -47,7 +46,7 @@
     display: flex;
         justify-content: center;
         align-items: center;    
-    
+    /* composes: nickname; */
     margin-bottom: 15px;
 }
 

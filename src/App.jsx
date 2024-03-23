@@ -1,7 +1,7 @@
 
 import './App.css';
 import React from 'react';
-import  Profile from './Components/Profile/profile'
+import  Profile from './Components/Profile/Profile'
 import userData from './userData.json';
 import friends from "./friends.json";
 import FriendList from './Components/FriendList/FriendList';
