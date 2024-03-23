@@ -1,4 +1,4 @@
-import App from '../../App';
+
 import css from './Profile.module.css';
 const Profile = (props) => {
     return (<div className={css.profile}>
@@ -7,8 +7,8 @@ const Profile = (props) => {
                 src={props.image}
                 alt="User avatar"
             />
-            <p  className={css.name}>{props.name}</p>
-            <p className={css.nickname}>@{props.tag }</p>
+            <p className={css.name}>{props.name}</p>
+            <p className={css.nickname}>@{props.tag}</p>
             <p className={css.location}>{props.location}</p>
         </div>
 
